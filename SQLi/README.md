@@ -28,8 +28,8 @@ SQL Injection(SQLi)에 대해 공부한 내용을 정리하는 폴더입니다.
 | 03 | Error-based SQLi | DB 에러 메시지를 이용한 정보 확인 방식 |
 | 04 | Union-based SQLi | `UNION SELECT`를 이용한 결과 병합 방식 |
 | 05 | Blind SQLi | 참/거짓 응답 차이를 이용한 추론 방식 |
-| 06 | 실습 환경 | XAMPP, PHP, MySQL 기반 로컬 실습 환경 |
-| 07 | 대응 방법 | Prepared Statement, 입력 검증, 에러 메시지 제한 등 |
+| 06 | 대응 방법 | Prepared Statement, 입력 검증, 에러 메시지 제한 등 |
+| 07 | 실습 환경 | XAMPP, PHP, MySQL 기반 로컬 실습 환경 |
 
 ---
 
@@ -43,5 +43,5 @@ SQLi/
 ├── 03_error_based_sqli.md
 ├── 04_union_based_sqli.md
 ├── 05_blind_sqli.md
-├── 06_lab_setup.md
-└── 07_mitigation.md
+├── 06_mitigation.md
+└── 07_setup
