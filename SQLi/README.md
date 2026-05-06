@@ -36,4 +36,4 @@ SQLi/
 ├── README.md
 ├── 01_concept.md
 ├── 02_vulnerable_code.md
-└── 03_setup
+└── 03_setup/
