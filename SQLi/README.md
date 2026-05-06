@@ -25,11 +25,7 @@ SQL Injection(SQLi)에 대해 공부한 내용을 정리하는 폴더입니다.
 |---|---|---|
 | 01 | SQL Injection 개념 | SQLi의 정의와 발생 조건 |
 | 02 | 취약한 코드 구조 | 사용자 입력값이 쿼리에 직접 삽입되는 코드 분석 |
-| 03 | Error-based SQLi | DB 에러 메시지를 이용한 정보 확인 방식 |
-| 04 | Union-based SQLi | `UNION SELECT`를 이용한 결과 병합 방식 |
-| 05 | Blind SQLi | 참/거짓 응답 차이를 이용한 추론 방식 |
-| 06 | 대응 방법 | Prepared Statement, 입력 검증, 에러 메시지 제한 등 |
-| 07 | 실습 환경 | XAMPP, PHP, MySQL 기반 로컬 실습 환경 |
+| 03 | 실습 환경 | XAMPP, PHP, MySQL 기반 로컬 실습 환경 |
 
 ---
 
@@ -40,8 +36,4 @@ SQLi/
 ├── README.md
 ├── 01_concept.md
 ├── 02_vulnerable_code.md
-├── 03_error_based_sqli.md
-├── 04_union_based_sqli.md
-├── 05_blind_sqli.md
-├── 06_mitigation.md
-└── 07_setup
+└── 03_setup
